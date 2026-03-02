@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My app - Padilla</title>
+    <link rel="stylesheet" href="./output.css" />
+    <link rel="icon" href="../favicon.ico" />
+    <script src="../js/theme-init.js">
+    </script>
+  </head>
+  <body>
+    <header class="py-7 fixed shadow-md w-full z-50">
+      <div class="container">
+        <!-- wrapper -->
+        <div class="flex justify-between items-center">
+          <!-- logo -->
+          <div class="flex items-center gap-2">
+            <img
+              class="size-8"
+              src="../images/apple-touch-icon.webp"
+              alt="logo"
+            />
+            <span class="text-xl font-bold">MyApp</span>
+          </div>
+          <!-- nav -->
+          <nav class="headerNav">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li>
+                <a href=""><button id="themeToggle">🌙</button></a>
+              </li>
+            </ul>
+          </nav>
+          <!-- toggle menu -->
+          <div class="toggleMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <!-- transparent -->
+          <div class="transparent"></div>
+        </div>
+      </div>
+    </header>
+    <section class = "pt-36 pb-12 md:pt-44 md:pb-20">
+        <div class="container">
+            <!-- wrapper -->
+             <div class ="grid grid-cols-1 gap-12 items-center lg:grid-cols-2">
+              <!--img-->
+            <div>
+                <img class="roudned-xl shadow-md object-cover"
+                src="../images/banner-home.webp" alt="home"></div>
+
+            <!--details-->
+            <div>
+            <span class="uppercase text-blue-600 font-bold">about our program</span>
+            <h2 class="title">We Deliver</h2>
+            <p class="mb-6">Founded in 2025, we help businesses transform their ideas into reality through cutting-
+            edge technology and expert consulting services. Our team of 50+ professionals delivers
+            measurable results.</p>
+                    <!--button-->
+                    <ul class="flex flex-col gap-4 md:flex-row">
+                        <li><a class= "btn btn--blue" href = "#">Learn More</a></li>
+                          <li><a class= "btn btn--gray" href = "#">Contact Us</a></li>
+                    </ul>
+                 </div>
+             </div>
+        </div>
+    </section>
+    <!-- script -->
+    <script src="../js/toggle-menu.js"></script>
+    <script src="../js/mode.js"></script>
+  </body>
+</html>
